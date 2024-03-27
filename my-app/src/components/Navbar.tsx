@@ -3,7 +3,6 @@ import styles from "@/assets/CSS/Navbar.module.css";
 import Link from "next/link";
 import "../../src/app/globals.css";
 
-
 const Navbar = () => {
   return (
     <div className={`${styles.main} `}>
@@ -14,10 +13,10 @@ const Navbar = () => {
         CATEGORIES
       </Link>
       <Link href="#" className={`${styles.option} navbar__link relative`}>
-        MEN'S
+        MEN&#8217;S
       </Link>
       <Link href="#" className={`${styles.option} navbar__link relative`}>
-        WOMEN'S
+        WOMEN&#8217;S
       </Link>
       <Link href="#" className={`${styles.option} navbar__link relative`}>
         JEWELRY
