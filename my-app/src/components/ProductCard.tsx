@@ -1,9 +1,9 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { AiOutlineStar } from "react-icons/ai";
 import { AiFillStar } from "react-icons/ai";
 interface propsType {
-  img: string;
+  img: string | StaticImageData;
   title: string;
   desc: string;
   rating: number;
